@@ -41,8 +41,8 @@ while True:
         cpu_choice = "scissors"
 
     print()
-    print("your choice:", user_choice)
-    print("Computer's Choice:", cpu_choice)
+    print("Player: ", "(",user_choice,")")
+    print("User:", "(",cpu_choice,")")
     print()
 
     if user_choice == "rock":
